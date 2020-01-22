@@ -1,0 +1,52 @@
+{
+    "class": "linearLayout",
+    "orientation": "horizontal",
+    "backgroundColor": "#0000ff",
+    "subviews": [
+        {
+            "class": "label",
+            "text": "This is just example of the label",
+            "backgroundColor": "#00ff00",
+            "x": 100,
+            "y": 100,
+            "width": "auto",
+            "height": "auto",
+            "padding": 50,
+        },
+        {
+            "class": "label",
+            "text": "And this is another\nlabel",
+            "backgroundColor": "#ff0000",
+            "x": 300,
+            "y": 300,
+            "width": "auto",
+            "height": "auto",
+        },
+        {
+            "class": "absoluteLayout",
+            "backgroundColor": "#331122",
+            "subviews": [
+                {
+                    "class": "label",
+                    "text": "Hi! I'm the label....\nAnd I'm quit long and have two lines :)))",
+                    "textColor": "#ffffff",
+                    "width": "auto",
+                    "height": "auto",
+                    "x": 50,
+                    "y": 20
+                },
+                {
+                    "class": "label",
+                    "text": "And I'm another label. Just like my brother",
+                    "textColor": "#ff0066",
+                    "width": "fill",
+                    "height": "fill",
+                    "x": 0,
+                    "y": 0,
+                }
+            ],
+            "width": "auto",
+            "height": "auto"
+        }
+    ]
+}

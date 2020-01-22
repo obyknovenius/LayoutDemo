@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		B73397E11D00935A00DBC614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73397E01D00935A00DBC614 /* main.m */; };
 		B73397E41D00935A00DBC614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B73397E31D00935A00DBC614 /* AppDelegate.m */; };
-		B73397E71D00935A00DBC614 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73397E61D00935A00DBC614 /* ViewController.m */; };
 		B73397EA1D00935A00DBC614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73397E81D00935A00DBC614 /* Main.storyboard */; };
 		B73397EC1D00935A00DBC614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73397EB1D00935A00DBC614 /* Assets.xcassets */; };
 		B73397EF1D00935A00DBC614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73397ED1D00935A00DBC614 /* LaunchScreen.storyboard */; };
+		B73398361D01D61F00DBC614 /* Layout.json in Resources */ = {isa = PBXBuildFile; fileRef = B73398351D01D61F00DBC614 /* Layout.json */; };
+		B74B743C1D0804CF00BA5BE0 /* EBFTreeUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = B74B743B1D0804CF00BA5BE0 /* EBFTreeUnarchiver.m */; };
+		B74B743F1D08050600BA5BE0 /* EBFJSONUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = B74B743E1D08050600BA5BE0 /* EBFJSONUnarchiver.m */; };
+		B77A3A561D144C0E0062DDE8 /* UIColor+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A3A551D144C0E0062DDE8 /* UIColor+NSString.m */; };
+		B77A3A5A1D144CC40062DDE8 /* EBFAbsoluteLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A3A591D144CC40062DDE8 /* EBFAbsoluteLayoutView.m */; };
+		B77A3A5D1D144D060062DDE8 /* EBFAbsoluteLayoutParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A3A5C1D144D060062DDE8 /* EBFAbsoluteLayoutParameters.m */; };
+		B77A3A601D144ED20062DDE8 /* EBFLayoutParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A3A5F1D144ED20062DDE8 /* EBFLayoutParameters.m */; };
+		B77A3A671D1463140062DDE8 /* EBFLinearLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A3A661D1463140062DDE8 /* EBFLinearLayoutView.m */; };
+		B7DCF4AE1D143BF700ECDA97 /* EBFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4AA1D143BF700ECDA97 /* EBFLabel.m */; };
+		B7DCF4B11D143CAA00ECDA97 /* EBFViewUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4B01D143CAA00ECDA97 /* EBFViewUnarchiver.m */; };
+		B7DCF4B51D14485700ECDA97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B76061391D0F1CBB006CC544 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,36 @@
 		B73397E01D00935A00DBC614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B73397E21D00935A00DBC614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B73397E31D00935A00DBC614 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B73397E51D00935A00DBC614 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B73397E61D00935A00DBC614 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B73397E91D00935A00DBC614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B73397EB1D00935A00DBC614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B73397EE1D00935A00DBC614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B73397F01D00935A00DBC614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73398171D00A29000DBC614 /* EBFArchiveKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBFArchiveKit.h; sourceTree = "<group>"; };
+		B73398351D01D61F00DBC614 /* Layout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Layout.json; sourceTree = "<group>"; };
+		B74B74361D07FD5600BA5BE0 /* EBFTreeCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFTreeCoding.h; sourceTree = "<group>"; };
+		B74B743A1D0804CF00BA5BE0 /* EBFTreeUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFTreeUnarchiver.h; sourceTree = "<group>"; };
+		B74B743B1D0804CF00BA5BE0 /* EBFTreeUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFTreeUnarchiver.m; sourceTree = "<group>"; };
+		B74B743D1D08050600BA5BE0 /* EBFJSONUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFJSONUnarchiver.h; sourceTree = "<group>"; };
+		B74B743E1D08050600BA5BE0 /* EBFJSONUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFJSONUnarchiver.m; sourceTree = "<group>"; };
+		B76061381D0F1CBB006CC544 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B76061391D0F1CBB006CC544 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B77A3A511D144BC90062DDE8 /* EBFLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFLayoutView.h; sourceTree = "<group>"; };
+		B77A3A521D144BE40062DDE8 /* EBFWidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFWidgetView.h; sourceTree = "<group>"; };
+		B77A3A541D144C0E0062DDE8 /* UIColor+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NSString.h"; sourceTree = "<group>"; };
+		B77A3A551D144C0E0062DDE8 /* UIColor+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NSString.m"; sourceTree = "<group>"; };
+		B77A3A581D144CC40062DDE8 /* EBFAbsoluteLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFAbsoluteLayoutView.h; sourceTree = "<group>"; };
+		B77A3A591D144CC40062DDE8 /* EBFAbsoluteLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFAbsoluteLayoutView.m; sourceTree = "<group>"; };
+		B77A3A5B1D144D060062DDE8 /* EBFAbsoluteLayoutParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFAbsoluteLayoutParameters.h; sourceTree = "<group>"; };
+		B77A3A5C1D144D060062DDE8 /* EBFAbsoluteLayoutParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFAbsoluteLayoutParameters.m; sourceTree = "<group>"; };
+		B77A3A5E1D144ED20062DDE8 /* EBFLayoutParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFLayoutParameters.h; sourceTree = "<group>"; };
+		B77A3A5F1D144ED20062DDE8 /* EBFLayoutParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFLayoutParameters.m; sourceTree = "<group>"; };
+		B77A3A651D1463140062DDE8 /* EBFLinearLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFLinearLayoutView.h; sourceTree = "<group>"; };
+		B77A3A661D1463140062DDE8 /* EBFLinearLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFLinearLayoutView.m; sourceTree = "<group>"; };
+		B7DCF4A01D143BF700ECDA97 /* EBFLayoutKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFLayoutKit.h; sourceTree = "<group>"; };
+		B7DCF4A91D143BF700ECDA97 /* EBFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFLabel.h; sourceTree = "<group>"; };
+		B7DCF4AA1D143BF700ECDA97 /* EBFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFLabel.m; sourceTree = "<group>"; };
+		B7DCF4AF1D143CAA00ECDA97 /* EBFViewUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFViewUnarchiver.h; sourceTree = "<group>"; };
+		B7DCF4B01D143CAA00ECDA97 /* EBFViewUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFViewUnarchiver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +94,11 @@
 			children = (
 				B73397E21D00935A00DBC614 /* AppDelegate.h */,
 				B73397E31D00935A00DBC614 /* AppDelegate.m */,
-				B73397E51D00935A00DBC614 /* ViewController.h */,
-				B73397E61D00935A00DBC614 /* ViewController.m */,
+				B76061351D0F1CBB006CC544 /* ViewControllers */,
+				B73397F61D00936500DBC614 /* EBFArchiveKit */,
+				B7DCF49F1D143BF700ECDA97 /* EBFLayoutKit */,
 				B73397E81D00935A00DBC614 /* Main.storyboard */,
+				B73398351D01D61F00DBC614 /* Layout.json */,
 				B73397EB1D00935A00DBC614 /* Assets.xcassets */,
 				B73397ED1D00935A00DBC614 /* LaunchScreen.storyboard */,
 				B73397F01D00935A00DBC614 /* Info.plist */,
@@ -77,6 +113,92 @@
 				B73397E01D00935A00DBC614 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B73397F61D00936500DBC614 /* EBFArchiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				B73398171D00A29000DBC614 /* EBFArchiveKit.h */,
+				B74B74361D07FD5600BA5BE0 /* EBFTreeCoding.h */,
+				B74B743A1D0804CF00BA5BE0 /* EBFTreeUnarchiver.h */,
+				B74B743B1D0804CF00BA5BE0 /* EBFTreeUnarchiver.m */,
+				B74B743D1D08050600BA5BE0 /* EBFJSONUnarchiver.h */,
+				B74B743E1D08050600BA5BE0 /* EBFJSONUnarchiver.m */,
+			);
+			path = EBFArchiveKit;
+			sourceTree = "<group>";
+		};
+		B76061351D0F1CBB006CC544 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B76061381D0F1CBB006CC544 /* ViewController.h */,
+				B76061391D0F1CBB006CC544 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B77A3A531D144C0E0062DDE8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B77A3A541D144C0E0062DDE8 /* UIColor+NSString.h */,
+				B77A3A551D144C0E0062DDE8 /* UIColor+NSString.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B77A3A571D144CC40062DDE8 /* AbsoluteLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B77A3A5B1D144D060062DDE8 /* EBFAbsoluteLayoutParameters.h */,
+				B77A3A5C1D144D060062DDE8 /* EBFAbsoluteLayoutParameters.m */,
+				B77A3A581D144CC40062DDE8 /* EBFAbsoluteLayoutView.h */,
+				B77A3A591D144CC40062DDE8 /* EBFAbsoluteLayoutView.m */,
+			);
+			path = AbsoluteLayout;
+			sourceTree = "<group>";
+		};
+		B77A3A641D1463140062DDE8 /* LinearLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B77A3A651D1463140062DDE8 /* EBFLinearLayoutView.h */,
+				B77A3A661D1463140062DDE8 /* EBFLinearLayoutView.m */,
+			);
+			path = LinearLayout;
+			sourceTree = "<group>";
+		};
+		B7DCF49F1D143BF700ECDA97 /* EBFLayoutKit */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCF4A01D143BF700ECDA97 /* EBFLayoutKit.h */,
+				B7DCF4AF1D143CAA00ECDA97 /* EBFViewUnarchiver.h */,
+				B7DCF4B01D143CAA00ECDA97 /* EBFViewUnarchiver.m */,
+				B7DCF4A81D143BF700ECDA97 /* Widgets */,
+				B7DCF4A31D143BF700ECDA97 /* Layouts */,
+				B77A3A531D144C0E0062DDE8 /* Categories */,
+			);
+			path = EBFLayoutKit;
+			sourceTree = "<group>";
+		};
+		B7DCF4A31D143BF700ECDA97 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				B77A3A5E1D144ED20062DDE8 /* EBFLayoutParameters.h */,
+				B77A3A5F1D144ED20062DDE8 /* EBFLayoutParameters.m */,
+				B77A3A511D144BC90062DDE8 /* EBFLayoutView.h */,
+				B77A3A571D144CC40062DDE8 /* AbsoluteLayout */,
+				B77A3A641D1463140062DDE8 /* LinearLayout */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		B7DCF4A81D143BF700ECDA97 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				B77A3A521D144BE40062DDE8 /* EBFWidgetView.h */,
+				B7DCF4A91D143BF700ECDA97 /* EBFLabel.h */,
+				B7DCF4AA1D143BF700ECDA97 /* EBFLabel.m */,
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +232,7 @@
 				TargetAttributes = {
 					B73397DB1D00935A00DBC614 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8E8DJGBGN6;
 					};
 				};
 			};
@@ -137,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73397EF1D00935A00DBC614 /* LaunchScreen.storyboard in Resources */,
+				B73398361D01D61F00DBC614 /* Layout.json in Resources */,
 				B73397EC1D00935A00DBC614 /* Assets.xcassets in Resources */,
 				B73397EA1D00935A00DBC614 /* Main.storyboard in Resources */,
 			);
@@ -149,9 +273,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B73397E71D00935A00DBC614 /* ViewController.m in Sources */,
+				B74B743F1D08050600BA5BE0 /* EBFJSONUnarchiver.m in Sources */,
+				B77A3A561D144C0E0062DDE8 /* UIColor+NSString.m in Sources */,
+				B74B743C1D0804CF00BA5BE0 /* EBFTreeUnarchiver.m in Sources */,
+				B77A3A601D144ED20062DDE8 /* EBFLayoutParameters.m in Sources */,
+				B77A3A5D1D144D060062DDE8 /* EBFAbsoluteLayoutParameters.m in Sources */,
+				B7DCF4B51D14485700ECDA97 /* ViewController.m in Sources */,
+				B7DCF4AE1D143BF700ECDA97 /* EBFLabel.m in Sources */,
 				B73397E41D00935A00DBC614 /* AppDelegate.m in Sources */,
 				B73397E11D00935A00DBC614 /* main.m in Sources */,
+				B7DCF4B11D143CAA00ECDA97 /* EBFViewUnarchiver.m in Sources */,
+				B77A3A671D1463140062DDE8 /* EBFLinearLayoutView.m in Sources */,
+				B77A3A5A1D144CC40062DDE8 /* EBFAbsoluteLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E8DJGBGN6;
 				INFOPLIST_FILE = LayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ebf.LayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -276,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E8DJGBGN6;
 				INFOPLIST_FILE = LayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ebf.LayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +441,7 @@
 				B73397F51D00935A00DBC614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
